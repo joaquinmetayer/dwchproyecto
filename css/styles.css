@@ -202,7 +202,8 @@ th{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 25em;
+    width: 100%;
+    max-width: 25em;
 }
 .data-form label, .data-form input, .data-form textarea{
     margin: 0.25em;
