@@ -103,7 +103,7 @@ body{
 .table{
     padding: 2em 2em 2em 2em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-sevenly;
     align-items: center;
     min-height: 70vh;
 }
