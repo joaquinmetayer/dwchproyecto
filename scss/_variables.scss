@@ -1,0 +1,9 @@
+$primary-color: #000;
+$secondary-color: #fff;
+
+@mixin center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
