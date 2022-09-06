@@ -2,7 +2,6 @@
     background-image: linear-gradient($secondary-color, #c4c4c4);
 }
 .btnbuy{
-    font-size: 1em;
     font-weight: bold;
     color: $primary-color;
     background-color: $secondary-color;
@@ -40,7 +39,7 @@
 .buy-prodduct{
     width: 50%;
     margin: 1em 0em 1em;
-    font-size: 1.1em;
+    font-size: map-get($map: $font-sizes, $key: 'medium');
     font-weight: bold;
     height: 2.5em;
     border: solid 0.5px $primary-color;

@@ -1,7 +1,7 @@
 .img-name{
     min-height: 100vh;
     @include center-flex;
-    font-size: 4em;
+    font-size: map-get($map: $font-sizes, $key: 'extra-large');
     text-align: center;
     font-weight: bold;
     background-image: url('../images/wp5377577-rufus-du-sol-wallpapers.jpeg');

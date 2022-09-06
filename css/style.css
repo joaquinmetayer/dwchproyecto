@@ -1,3 +1,6 @@
+/* el nesting esta en seccion tour y contacto 
+   el extend esta en seccion contacto
+*/
 * {
   padding: 0;
   margin: 0;
@@ -27,12 +30,6 @@ body {
 
 li {
   list-style: none;
-}
-
-.center-flex, .albums div, .albums {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .navbar {
@@ -78,7 +75,6 @@ table tr th {
 }
 
 .btnbuy {
-  font-size: 1em;
   font-weight: bold;
   color: #000;
   background-color: #fff;
@@ -215,8 +211,16 @@ table tr th {
 
 .albums {
   grid-area: albums;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 2em;
   width: 100%;
+}
+.albums div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .albums div iframe {
   margin: 1em;
@@ -261,10 +265,9 @@ table tr th {
   max-width: 25em;
 }
 
-.data-form label, .data-form input, .data-form textarea, .btn-enviar {
+.data-form-textarea, .data-form input, .btn-enviar, .data-form label {
   margin: 0.25em;
   text-transform: uppercase;
-  font-size: 1em;
   font-weight: bold;
 }
 
@@ -335,20 +338,6 @@ table tr th {
   .data-form {
     width: 100%;
   }
-} /* 
-
-
-
-
-mapa + get-map
-
-extender una clase base y modoficarla?
-
-mixing
-
-
-
-
-*/
+}
 
 /*# sourceMappingURL=style.css.map */

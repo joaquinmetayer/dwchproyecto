@@ -23,12 +23,21 @@
     width: 100%;
     max-width: 25em;
 }
-.data-form label, .data-form input, .data-form textarea, .btn-enviar{
+.data-form-textarea{
     margin: 0.25em;
     text-transform: uppercase;
-    font-size: 1em;
     font-weight: bold;
 }
+.data-form label{
+    @extend .data-form-textarea;
+}
+.btn-enviar{
+    @extend .data-form-textarea;
+}
+.data-form input{
+    @extend .data-form-textarea;
+}
+
 .data-form input, .data-form textarea, .btn-enviar{
     border: 0px solid $secondary-color;
     border-radius: 10px;
