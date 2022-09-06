@@ -1,14 +1,13 @@
-@import 'variables';
+@import './base/variables';
+@import './base/alls';
+@import './base/responsive';
 
-@import 'alls';
+@import './components/nav';
+@import './components/footer';
 
-@import 'nav';
-@import 'tour';
-@import 'shop';
-@import 'home';
-@import 'gallery';
-@import 'discography';
-@import 'contact';
-@import 'footer';
-
-@import 'responsive';
+@import './sections/contact';
+@import './sections/discography';
+@import './sections/gallery';
+@import './sections/home';
+@import './sections/shop';
+@import './sections/tour';
