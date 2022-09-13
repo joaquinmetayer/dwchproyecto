@@ -1,0 +1,5 @@
+SEO
+
+Agregue meta descripción y keywords en cada hoja explicando brevemente que contiene cada una de ellas.
+
+Ya existen encabezados como los h1 con el titulo de cada pagina.
