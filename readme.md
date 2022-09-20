@@ -1,6 +1,6 @@
 # Diseño Web CoderHouse
 
-Entrega para Diseño Web en CoderHouse utilizando HTML, CSS y Bootstrap.
+Entrega para Diseño Web en CoderHouse utilizando HTML, CSS con SASS y Bootstrap.
 
 Live view en https://dwchproyecto.netlify.app/ y en https://joaquinmetayer.000webhostapp.com/
 
