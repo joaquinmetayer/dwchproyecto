@@ -21,3 +21,15 @@ Live view en https://dwchproyecto.netlify.app/ y en https://joaquinmetayer.000we
 <img src="./images/imgreadme/08.png">
 
 <img src="./images/imgreadme/09.png">
+
+<img src="./images/imgreadme/010.png">
+
+<img src="./images/imgreadme/011.png">
+
+<img src="./images/imgreadme/012.png">
+
+<img src="./images/imgreadme/013.png">
+
+<img src="./images/imgreadme/014.png">
+
+<img src="./images/imgreadme/015.png">
